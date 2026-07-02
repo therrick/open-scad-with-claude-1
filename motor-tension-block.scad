@@ -2,14 +2,14 @@
 // Key dimensions
 length        = 41.7;  // mm, main block long axis
 width         = 23.0;  // mm, main block width
-height        = 10.0;  // mm
+height        = 12.0;  // mm
 fin_thickness = 1.5;   // mm, fin wall thickness (Y direction)
 fin_extension = 10.0;  // mm, how far fins extend beyond each end of the block (X direction)
 
 // Wire notch — two notches on one fin, one at each end, open at the top
 notch_inset  = 2.0;   // mm, distance from fin tip to near edge of notch
 notch_length = 5.0;   // mm, notch extent along the fin (X direction)
-notch_depth  = 6.0;   // mm, notch depth from top of fin (Z direction)
+notch_depth  = 8.0;   // mm, notch depth from top of fin (Z direction)
 
 // Bevel — 45° chamfers to guide the part down over the motor:
 //   • inner top edges of the fin extensions (not alongside the block)
