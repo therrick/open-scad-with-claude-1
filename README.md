@@ -13,7 +13,7 @@ Two thin longitudinal fins extend 10 mm beyond each end of the central block
 body, allowing the part to slide down over a motor. 45° chamfers on the entry
 edges guide the part into place.
 
-**Overall envelope (with fins):** 61.7 mm × 26.0 mm × 10 mm
+**Overall envelope (with fins):** 61.7 mm × 26.0 mm × 12 mm
 
 #### Parameters
 
@@ -21,12 +21,12 @@ edges guide the part into place.
 |---|---|---|
 | `length` | 41.7 mm | Length of the central block body |
 | `width` | 23.0 mm | Width of the central block body |
-| `height` | 10.0 mm | Height of the part |
+| `height` | 12.0 mm | Height of the part |
 | `fin_thickness` | 1.5 mm | Wall thickness of each fin (Y direction) |
 | `fin_extension` | 10.0 mm | How far each fin extends beyond each block end (X direction) |
 | `notch_inset` | 2.0 mm | Distance from fin tip to the near edge of each wire notch |
 | `notch_length` | 5.0 mm | Wire notch length along the fin (X direction) |
-| `notch_depth` | 6.0 mm | Wire notch depth from the top of the fin (Z direction) |
+| `notch_depth` | 8.0 mm | Wire notch depth from the top of the fin (Z direction) |
 | `bevel_size` | 1.25 mm | Leg length of the 45° entry chamfers |
 
 #### Features
