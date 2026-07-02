@@ -1,6 +1,9 @@
 # Claude Code session data
 .claude/
 
+# macOS
+.DS_Store
+
 # Generated output — rebuild with OpenSCAD, don't track in git
 *.stl
 *.3mf
