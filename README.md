@@ -64,5 +64,9 @@ openscad --render -o motor-tension-block.png motor-tension-block.scad
 openscad -D "length=45" -D "bevel_size=0.6" -o motor-tension-block.stl motor-tension-block.scad
 ```
 
-Generated STL, PNG, and 3MF files are excluded from version control (see
-`.gitignore`). Only `.scad` source files are tracked.
+`motor-tension-block.stl` and `motor-tension-block.png` are tracked in version
+control and must be kept in sync with the source. **After any change to
+`motor-tension-block.scad`, regenerate both files with the two commands above
+and include the updated files in the same commit/PR.** Other generated
+formats (3MF, AMF, DXF, SVG) are excluded from version control (see
+`.gitignore`).
