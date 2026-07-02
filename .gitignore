@@ -5,9 +5,7 @@
 .DS_Store
 
 # Generated output — rebuild with OpenSCAD, don't track in git
-*.stl
 *.3mf
-*.png
 *.amf
 *.dxf
 *.svg
