@@ -3,7 +3,7 @@
 length        = 41.7;  // mm, main block long axis
 width         = 23.0;  // mm, main block width
 height        = 10.0;  // mm
-fin_thickness = 0.6;   // mm, fin wall thickness (Y direction)
+fin_thickness = 1.5;   // mm, fin wall thickness (Y direction)
 fin_extension = 10.0;  // mm, how far fins extend beyond each end of the block (X direction)
 
 // Wire notch — two notches on one fin, one at each end, open at the top
@@ -14,7 +14,7 @@ notch_depth  = 6.0;   // mm, notch depth from top of fin (Z direction)
 // Bevel — 45° chamfers to guide the part down over the motor:
 //   • inner top edges of the fin extensions (not alongside the block)
 //   • top edges of the two exposed block ends
-bevel_size = 0.5;     // mm, leg length of chamfer triangle
+bevel_size = 1.25;    // mm, leg length of chamfer triangle
 
 // Derived
 fin_total_length = length + 2 * fin_extension;  // 61.7mm
